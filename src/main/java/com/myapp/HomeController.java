@@ -14,4 +14,14 @@ public class HomeController {
     private void switchToItemizer() throws IOException {
         App.setRoot("itemizer");
     }
+
+    @FXML
+    private void switchToHome() throws IOException {
+        App.setRoot("itemizer");
+    }
+
+    @FXML
+    private void AppExit() throws IOException {
+        System.exit(0);
+    }
 }

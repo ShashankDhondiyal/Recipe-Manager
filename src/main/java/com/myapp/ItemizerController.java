@@ -14,4 +14,14 @@ public class ItemizerController {
     private void switchToLibrary() throws IOException {
         App.setRoot("library");
     }
+
+    @FXML
+    private void switchToItemizer() throws IOException {
+        App.setRoot("itemizer");
+    }
+
+    @FXML
+    private void AppExit() throws IOException {
+        System.exit(0);
+    }
 }

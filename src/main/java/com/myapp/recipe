@@ -1,8 +1,0 @@
-package com.myapp.recipe;
-
-import java.util.ArrayList;
-
-public class Recipe {
-    public ArrayList<String> Ingredients = new ArrayList<>();
-    public ArrayList<String> Instructions = new ArrayList<>();
-}
