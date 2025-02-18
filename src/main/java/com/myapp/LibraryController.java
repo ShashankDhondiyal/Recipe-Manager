@@ -6,8 +6,8 @@ import javafx.fxml.FXML;
 public class LibraryController {
 
     @FXML
-    private void switchToHome() throws IOException {
-        App.setRoot("home");
+    private void switchToSearch() throws IOException {
+        App.setRoot("search");
     }
 
     @FXML
@@ -16,8 +16,8 @@ public class LibraryController {
     }
 
     @FXML
-    private void switchToLibrary() throws IOException {
-        App.setRoot("library");
+    private void switchTheme() throws IOException {
+        
     }
 
     @FXML
