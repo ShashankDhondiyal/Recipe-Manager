@@ -2,8 +2,12 @@ package com.myapp;
 
 import java.io.IOException;
 import javafx.fxml.FXML;
+import javafx.scene.Scene;
+import javafx.scene.layout.VBox;
 
 public class ItemizerController {
+    @FXML
+    private VBox ingredientCheckboxContainer;
 
     @FXML
     private void switchToSearch() throws IOException {
@@ -17,7 +21,7 @@ public class ItemizerController {
 
     @FXML
     private void switchTheme() throws IOException {
-        
+        App.switchTheme();
     }
 
     @FXML

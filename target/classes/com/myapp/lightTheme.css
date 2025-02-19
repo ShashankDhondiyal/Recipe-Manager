@@ -1,0 +1,21 @@
+.root {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-text-fill: #000000; /* Black text */
+}
+
+.label, .button, .menu-bar, .menu-item {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-text-fill: #000000; /* Black text */
+}
+
+.menu-bar {
+    -fx-background-color: #f0f0f0; /* Light gray for menu bar */
+}
+
+.menu-item {
+    -fx-background-color: #f0f0f0; /* Light gray for menu items */
+}
+
+.scroll-pane {
+    -fx-background: #ffffff; /* White background for scroll pane */
+}

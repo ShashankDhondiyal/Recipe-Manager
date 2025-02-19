@@ -4,10 +4,12 @@
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/23.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myapp.LibraryController">
+<VBox prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myapp.LibraryController">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -15,13 +17,18 @@
           <items>
             <MenuItem fx:id="itemizerButton" mnemonicParsing="false" onAction="#switchToItemizer" text="Add Recipe" />
             <SeparatorMenuItem mnemonicParsing="false" />
-                  <MenuItem fx:id="itemizerButton1" mnemonicParsing="false" onAction="#switchTheme" text="Change Theme" />
-                  <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem fx:id="searchButton" mnemonicParsing="false" onAction="#switchToSearch" text="Search" />
+            <SeparatorMenuItem mnemonicParsing="false" />            
+            <MenuItem fx:id="itemizerButton1" mnemonicParsing="false" onAction="#switchTheme" text="Change Theme" />
+            <SeparatorMenuItem mnemonicParsing="false" />
             <MenuItem fx:id="quitButton" mnemonicParsing="false" onAction="#AppExit" text="Quit" />
           </items>
         </Menu>
       </menus>
     </MenuBar>
-    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS" />
+    <TabPane fx:id="tabPane" prefHeight="1053.0" prefWidth="1920.0" tabClosingPolicy="UNAVAILABLE">
+      <tabs>
+      </tabs>
+    </TabPane>
   </children>
 </VBox>
